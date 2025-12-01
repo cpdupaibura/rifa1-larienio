@@ -1,3 +1,4 @@
+import Image from "next/image";
 import BallGrid from "@/components/BallGrid";
 
 export default function Home() {
@@ -19,6 +20,20 @@ export default function Home() {
         "
       >
         <BallGrid />
+      </div>
+
+      {/* QR CODE */}
+      <div className="mt-10 flex flex-col items-center">
+        <Image
+          src="/qrcode.jpg"
+          width={240}
+          height={240}
+          alt="QR Code para pagamento via PIX"
+          className="rounded-xl shadow-md"
+        />
+        <p className="mt-4 text-pink-700 font-semibold text-lg text-center">
+          Escaneie o QR Code para realizar o PIX 💗
+        </p>
       </div>
     </main>
   );
