@@ -15,6 +15,7 @@ const soldNumbers: Record<number, { buyer: string; status: "Pago ✅" }> = {
   5: { buyer: "Carlos", status: "Pago ✅" },
   7: { buyer: "Aline", status: "Pago ✅" },
   8: { buyer: "Almir Evangelista", status: "Pago ✅" },
+  9: { buyer: "João Breno HRRBC", status: "Pago ✅" },
   10: { buyer: "Dona Rosa", status: "Pago ✅" },
   11: { buyer: "Luana escola", status: "Pago ✅" },
   13: { buyer: "Crisly", status: "Pago ✅" },
