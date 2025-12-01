@@ -20,6 +20,7 @@ const soldNumbers: Record<number, { buyer: string; status: "Pago ✅" }> = {
   17: { buyer: "Dona Rosa", status: "Pago ✅" },
   19: { buyer: "Lizzie", status: "Pago ✅" },
   20: { buyer: "Lizzie", status: "Pago ✅" },
+  21: { buyer: "Aline", status: "Pago ✅" },
   22: { buyer: "Dona Rosa", status: "Pago ✅" },
   24: { buyer: "Jaiany", status: "Pago ✅" },
   27: { buyer: "Amanda Carol", status: "Pago ✅" },
