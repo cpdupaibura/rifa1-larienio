@@ -14,6 +14,7 @@ const soldNumbers: Record<
   { buyer: string; status: "Pago ✅" | "Pendente 🙏" }
 > = {
   1: { buyer: "Monique", status: "Pendente 🙏" },
+  3: { buyer: "Lenildo", status: "Pendente 🙏" },
   4: { buyer: "Bruno", status: "Pendente 🙏" },
   5: { buyer: "Carlos", status: "Pendente 🙏" },
   6: { buyer: "Andreza Filisolina", status: "Pago ✅" },
@@ -41,6 +42,7 @@ const soldNumbers: Record<
   48: { buyer: "Ana Carolina IF", status: "Pago ✅" },
   49: { buyer: "Dona Rosa", status: "Pago ✅" },
   50: { buyer: "Igor Rafael", status: "Pago ✅" },
+  55: { buyer: "Lenildo", status: "Pendente 🙏" },
   57: { buyer: "Dona Rosa", status: "Pago ✅" },
   60: { buyer: "Andreza Filisolina", status: "Pago ✅" },
   64: { buyer: "Dona Rosa", status: "Pago ✅" },
