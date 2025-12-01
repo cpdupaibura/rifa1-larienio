@@ -24,3 +24,16 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html, body {
+  background-color: #faf4ef !important;
+}
+
+@keyframes fade {
+  0% { opacity: 0; transform: translateY(-5px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade {
+  animation: fade 0.2s ease-out;
+}

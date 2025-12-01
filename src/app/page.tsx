@@ -1,5 +1,3 @@
-"use client";
-
 import BallGrid from "@/components/BallGrid";
 
 export default function Home() {

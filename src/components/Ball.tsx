@@ -1,45 +1,67 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 
 interface BallProps {
   number: number;
   sold: boolean;
   buyer?: string;
-  status?: "pago" | "pendente";
+  status?: "Pago ✅" | "Pendente";
 }
 
 export default function Ball({ number, sold, buyer, status }: BallProps) {
+  // Detecta cliente sem usar efeito
+  const [mounted] = useState(() => typeof window !== "undefined");
+
+  const [showTooltip, setShowTooltip] = useState(false);
+
+  if (!mounted) return null; // evita hydration mismatch
+
+  const handleClick = () => {
+    setShowTooltip(true);
+
+    setTimeout(() => {
+      setShowTooltip(false);
+    }, 2000);
+  };
+
   return (
-    <div className="relative group flex items-center justify-center">
-      <div
+    <div className="relative flex items-center justify-center">
+      <button
+        onClick={handleClick}
         className={`
-          w-14 h-14 flex items-center justify-center rounded-full font-bold transition-all
-          border-2 shadow-md
+          w-14 h-14 flex items-center justify-center rounded-full text-white 
+          font-bold transition shadow-md active:scale-95
           ${sold 
-            ? "bg-gradient-to-br from-rose-400 to-pink-500 text-white border-pink-700"
-            : "bg-gradient-to-br from-emerald-300 to-green-500 text-white border-green-700"
+            ? "bg-linear-to-br from-pink-500 to-red-500 shadow-[0_0_10px_rgba(255,80,120,0.6)]" 
+            : "bg-linear-to-br from-yellow-300 to-yellow-500 shadow-[0_0_12px_rgba(255,215,0,0.7)]"
           }
-          group-hover:scale-110
         `}
       >
         {number}
-      </div>
+      </button>
 
-      {/* Tooltip */}
-      {sold && (
+      {showTooltip && (
         <div
           className="
-            absolute -top-24 left-1/2 -translate-x-1/2
-            bg-white text-gray-900 text-sm font-medium
-            px-4 py-3 rounded-xl shadow-2xl border border-pink-200
-            opacity-0 group-hover:opacity-100 z-50
-            w-max whitespace-nowrap
-            transition
+            absolute -top-20 left-1/2 -translate-x-1/2
+            bg-white text-black text-sm font-medium
+            p-3 rounded-xl shadow-2xl border border-pink-200
+            z-50 w-max whitespace-nowrap
+            animate-fade
           "
         >
-          <p><strong className="text-pink-600">Comprador:</strong> {buyer}</p>
-          <p><strong className="text-pink-600">Status:</strong> {status}</p>
+          {sold ? (
+            <>
+              <p><strong>Comprador:</strong> {buyer}</p>
+              <p><strong>Status:</strong> {status}</p>
+            </>
+          ) : (
+            <>
+              <p className="font-semibold text-green-700">Número disponível 💛</p>
+              <p className="text-gray-700">Faça o PIX e avise ao casal 💝</p>
+            </>
+          )}
         </div>
       )}
     </div>
