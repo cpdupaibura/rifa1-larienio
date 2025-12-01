@@ -6,7 +6,7 @@ interface BallProps {
   number: number;
   sold: boolean;
   buyer?: string;
-  status?: "Pago ✅" | "Pendente";
+  status?: "Pago ✅" | "Pendente 🙏";
 }
 
 export default function Ball({ number, sold, buyer, status }: BallProps) {
