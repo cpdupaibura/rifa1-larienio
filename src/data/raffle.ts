@@ -31,7 +31,7 @@ const soldNumbers: Record<
   21: { buyer: "Aline", status: "Pago ✅" },
   22: { buyer: "Dona Rosa", status: "Pago ✅" },
   23: { buyer: "Paula", status: "Pago ✅" },
-  24: { buyer: "Jaiany", status: "Pago " },
+  24: { buyer: "Jaiany", status: "Pago ✅" },
   26: { buyer: "Vic", status: "Pago ✅" },
   27: { buyer: "Amanda Caroline", status: "Pago ✅" },
   28: { buyer: "Jaqueline Ayla", status: "Pago ✅" },
