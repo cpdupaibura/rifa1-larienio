@@ -11,6 +11,7 @@ export interface RaffleNumber {
  */
 const soldNumbers: Record<number, { buyer: string; status: "Pago ✅" }> = {
   1: { buyer: "Monique", status: "Pago ✅" },
+  4: { buyer: "Bruno", status: "Pago ✅" },
   5: { buyer: "Carlos", status: "Pago ✅" },
   7: { buyer: "Aline", status: "Pago ✅" },
   10: { buyer: "Dona Rosa", status: "Pago ✅" },
@@ -28,11 +29,13 @@ const soldNumbers: Record<number, { buyer: string; status: "Pago ✅" }> = {
   32: { buyer: "Dona Rosa", status: "Pago ✅" },
   37: { buyer: "Monique", status: "Pago ✅" },
   49: { buyer: "Dona Rosa", status: "Pago ✅" },
+  50: { buyer: "Igor", status: "Pago ✅" },
   57: { buyer: "Dona Rosa", status: "Pago ✅" },
   64: { buyer: "Dona Rosa", status: "Pago ✅" },
   70: { buyer: "Dona Rosa", status: "Pago ✅" },
   87: { buyer: "Allyson", status: "Pago ✅" },
   88: { buyer: "Dona Rosa", status: "Pago ✅" },
+  99: { buyer: "Bruno", status: "Pago ✅" },
   100: { buyer: "Dona Rosa", status: "Pago ✅" },
 };
 
