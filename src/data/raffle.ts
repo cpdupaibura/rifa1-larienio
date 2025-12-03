@@ -66,6 +66,7 @@ const soldNumbers: Record<
   69: { buyer: "Antônio Pedro", status: "Pago ✅" },
   70: { buyer: "Dona Rosa", status: "Pago ✅" },
   72: { buyer: "Jerfferson Rodrigues", status: "Pago ✅" },
+  80: { buyer: "Gleice Bomfim", status: "Pago ✅" },
   81: { buyer: "Antônio Pedro", status: "Pago ✅" },
   85: { buyer: "Paula", status: "Pago ✅" },
   86: { buyer: "Antônio Pedro", status: "Pago ✅" },
