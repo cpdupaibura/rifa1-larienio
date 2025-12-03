@@ -16,7 +16,7 @@ const soldNumbers: Record<
   1: { buyer: "Monique", status: "Pendente 🙏" },
   2: { buyer: "Antônio Pedro", status: "Pago ✅" },
   3: { buyer: "Lenildo", status: "Pago ✅" },
-  4: { buyer: "Bruno", status: "Pendente 🙏" },
+  4: { buyer: "Bruno", status: "Pago ✅" },
   5: { buyer: "Carlos", status: "Pendente 🙏" },
   6: { buyer: "Andreza Filisolina", status: "Pago ✅" },
   7: { buyer: "Aline", status: "Pago ✅" },
@@ -45,6 +45,7 @@ const soldNumbers: Record<
   31: { buyer: "Jaqueline Ayla", status: "Pago ✅" },
   32: { buyer: "Dona Rosa", status: "Pago ✅" },
   33: { buyer: "Antônio Pedro", status: "Pago ✅" },
+  34: { buyer: "Milena", status: "Pago ✅" },
   36: { buyer: "Antônio Pedro", status: "Pago ✅" },
   37: { buyer: "Monique", status: "Pendente 🙏" },
   40: { buyer: "Antônio Pedro", status: "Pago ✅" },
@@ -68,6 +69,7 @@ const soldNumbers: Record<
   72: { buyer: "Jerfferson Rodrigues", status: "Pago ✅" },
   80: { buyer: "Gleice Bomfim", status: "Pago ✅" },
   81: { buyer: "Antônio Pedro", status: "Pago ✅" },
+  84: { buyer: "Milena", status: "Pago ✅" },
   85: { buyer: "Paula", status: "Pago ✅" },
   86: { buyer: "Antônio Pedro", status: "Pago ✅" },
   87: { buyer: "Allyson", status: "Pendente 🙏" },
@@ -82,7 +84,7 @@ const soldNumbers: Record<
   96: { buyer: "Denise Leite", status: "Pago ✅" },
   97: { buyer: "Denise Leite", status: "Pago ✅" },
   98: { buyer: "Denise Leite", status: "Pago ✅" },
-  99: { buyer: "Bruno Thomaz", status: "Pendente 🙏" },
+  99: { buyer: "Bruno Thomaz", status: "Pago ✅" },
   100: { buyer: "Dona Rosa", status: "Pago ✅" },
 };
 
