@@ -48,6 +48,7 @@ const soldNumbers: Record<
   48: { buyer: "Ana Carolina IF", status: "Pago ✅" },
   49: { buyer: "Dona Rosa", status: "Pago ✅" },
   50: { buyer: "Igor Rafael", status: "Pago ✅" },
+  53: { buyer: "Jerfferson Rodrigues", status: "Pago ✅" },
   55: { buyer: "Lenildo", status: "Pago ✅" },
   56: { buyer: "Vitorinha", status: "Pago ✅"},
   57: { buyer: "Dona Rosa", status: "Pago ✅" },
