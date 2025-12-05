@@ -47,6 +47,7 @@ const soldNumbers: Record<
   32: { buyer: "Dona Rosa", status: "Pago ✅" },
   33: { buyer: "Antônio Pedro", status: "Pago ✅" },
   34: { buyer: "Milena", status: "Pago ✅" },
+  35: { buyer: "Hayrla", status: "Pago ✅" },
   36: { buyer: "Antônio Pedro", status: "Pago ✅" },
   37: { buyer: "Monique", status: "Pendente 🙏" },
   40: { buyer: "Antônio Pedro", status: "Pago ✅" },
