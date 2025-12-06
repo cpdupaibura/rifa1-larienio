@@ -75,6 +75,7 @@ const soldNumbers: Record<
   64: { buyer: "Nicholas Kleyton", status: "Pago ✅"},
   65: { buyer: "Jerfferson Rodrigues", status: "Pago ✅" },
   66: { buyer: "Nicholas Kleyton", status: "Pago ✅"},
+  67: { buyer: "Maria LP", status: "Pago ✅"},
   68: { buyer: "Rosinaldo", status: "Pago ✅" },
   69: { buyer: "Antônio Pedro", status: "Pago ✅" },
   70: { buyer: "Dona Rosa", status: "Pago ✅" },
