@@ -9,10 +9,7 @@ export interface RaffleNumber {
  * Lista dos números vendidos e suas informações
  * – Você só edita aqui
  */
-const soldNumbers: Record<
-  number,
-  { buyer: string; status: "Pago ✅" | "Pendente 🙏" }
-> = {
+const soldNumbers: { [key: number]: { buyer: string; status: "Pago ✅" | "Pendente 🙏" } } = {
   1: { buyer: "Monique", status: "Pendente 🙏" },
   2: { buyer: "Antônio Pedro", status: "Pago ✅" },
   3: { buyer: "Lenildo", status: "Pago ✅" },
