@@ -10,19 +10,11 @@ interface BallProps {
 }
 
 export default function Ball({ number, sold, buyer, status }: BallProps) {
-  // Detecta cliente sem usar efeito
-  const [mounted] = useState(() => typeof window !== "undefined");
-
   const [showTooltip, setShowTooltip] = useState(false);
-
-  if (!mounted) return null; // evita hydration mismatch
 
   const handleClick = () => {
     setShowTooltip(true);
-
-    setTimeout(() => {
-      setShowTooltip(false);
-    }, 2000);
+    setTimeout(() => setShowTooltip(false), 2000);
   };
 
   return (
