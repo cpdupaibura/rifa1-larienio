@@ -81,6 +81,8 @@ const soldNumbers: { [key: number]: { buyer: string; status: "Pago ✅" | "Pende
   73: { buyer: "Maria LP", status: "Pago ✅"},
   74: { buyer: "Maria LP", status: "Pago ✅"},
   75: { buyer: "Eduardo Alex", status: "Pago ✅" },
+  76: { buyer: "Edelvita Vitória", status: "Pago ✅" },
+  77: { buyer: "Jamesson Terézio", status: "Pago ✅"},
   80: { buyer: "Gleice Bomfim", status: "Pago ✅" },
   81: { buyer: "Antônio Pedro", status: "Pago ✅" },
   82: { buyer: "Rosinaldo", status: "Pago ✅" },
