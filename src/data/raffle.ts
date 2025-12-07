@@ -88,7 +88,7 @@ const soldNumbers: { [key: number]: { buyer: string; status: "Pago ✅" | "Pende
   81: { buyer: "Antônio Pedro", status: "Pago ✅" },
   82: { buyer: "Rosinaldo", status: "Pago ✅" },
   84: { buyer: "Milena", status: "Pago ✅" },
-  83: { buyer: "Uilma", status: "Pago ✅"},
+  83: { buyer: "Uilma", status: "Pendente 🙏"},
   85: { buyer: "Paula", status: "Pago ✅" },
   86: { buyer: "Antônio Pedro", status: "Pago ✅" },
   87: { buyer: "Allyson", status: "Pendente 🙏" },
