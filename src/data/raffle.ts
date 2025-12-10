@@ -44,7 +44,7 @@ const soldNumbers: { [key: number]: { buyer: string; status: "Pago ✅" | "Pende
   32: { buyer: "Dona Rosa", status: "Pago ✅" },
   33: { buyer: "Antônio Pedro", status: "Pago ✅" },
   34: { buyer: "Milena", status: "Pago ✅" },
-  35: { buyer: "Hayrla", status: "Pendente 🙏" },
+  //35: { buyer: "Hayrla", status: "Pendente 🙏" },
   36: { buyer: "Antônio Pedro", status: "Pago ✅" },
   37: { buyer: "Monique", status: "Pendente 🙏" },
   38: { buyer: "Nicholas Kleyton", status: "Pago ✅"},
